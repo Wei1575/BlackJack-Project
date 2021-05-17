@@ -27,7 +27,7 @@ class BlackJack:
    
     def betterAceVal(self, value, count):
         if(count == 0):
-	        return value;
+	    return value;
         if(value+10+count <= 21):
             return value+10+count
         else:
